@@ -1,0 +1,51 @@
+.App-outer{
+  width: 93vw;
+  height: 90vh;
+  background-color: #F5F5F5;
+  border-radius: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.App-inner{
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content:space-evenly ; */
+  gap: 3vh;
+}
+
+.App-inner>h1{
+  font-size: 3rem;
+}
+
+.App-inner>p{
+  font-size: 1.5rem;
+}
+
+.Game-dice-container{
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.Game-outer{
+  display: flex;
+  flex-direction: column;
+  gap:3vh;
+  align-items: center;
+}
+
+.Game-button{
+  width: 15vw;
+  height: 9vh;
+  border-radius:1vw ;
+  font-size: 1.5rem;
+  color:white;
+  background-color: #5035FF;
+}
